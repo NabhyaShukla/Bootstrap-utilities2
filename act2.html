@@ -14,7 +14,18 @@
         <h2>Spinner</h2>
         <p>To create a spinner/loader, use <code>.spinner-border</code> class</p>
 
-        <div class="spinner-border"></div>
+        <div class="spinner-border" role="status"></div>
+
+        <div class="spinner-grow text-dark" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+
+<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...(7 secs)
+</button>
+
+
     </div>
     
 </body>
